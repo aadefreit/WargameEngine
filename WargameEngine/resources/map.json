@@ -1,0 +1,104 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "attributes": {
+                "color": "white"
+            }
+        },
+        {
+            "id": "n2",
+            "coordinate": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "attributes": {
+                "color": "black"
+            }
+        },
+        {
+            "id": "n3",
+            "coordinate": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "attributes": {
+                "color": "white"
+            }
+        },
+        {
+            "id": "n4",
+            "coordinate": {
+                "x": 1,
+                "y": 1,
+                "z": 0
+            },
+            "attributes": {
+                "color": "black"
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "start": "n1",
+            "end": "n2",
+            "type": "twoway",
+            "attributes": {
+                "direction": "horizontal"
+            }
+        },
+        {
+            "id": "e2",
+            "start": "n3",
+            "end": "n4",
+            "type": "twoway",
+            "attributes": {
+                "direction": "horizontal"
+            }
+        },
+        {
+            "id": "e3",
+            "start": "n1",
+            "end": "n3",
+            "type": "twoway",
+            "attributes": {
+                "direction": "vertical"
+            }
+        },
+        {
+            "id": "e4",
+            "start": "n2",
+            "end": "n4",
+            "type": "twoway",
+            "attributes": {
+                "direction": "vertical"
+            }
+        },
+        {
+            "id": "e5",
+            "start": "n1",
+            "end": "n4",
+            "type": "twoway",
+            "attributes": {
+                "direction": "diagonal"
+            }
+        },
+        {
+            "id": "e6",
+            "start": "n2",
+            "end": "n3",
+            "type": "twoway",
+            "attributes": {
+                "direction": "diagonal"
+            }
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-package co.qhubeka.simengine;
+package co.qhubeka.engine;
 
 public class SimEngine {
 
