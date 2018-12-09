@@ -21,9 +21,14 @@ public class LocationNode extends SimObject {
 	 * Constructor
 	 * @param id - The unique identifier of the location node
 	 */
- 	public LocationNode(String id) {
+ 	public LocationNode(String id, double x, double y, double z) {
 		
 		super(id);
+		
+		// Save the Coordinates
+		this.x = x;
+		this.y = y;
+		this.z = z;
 		
 		// Creates a collection to store all entities
 		entities = new HashMap<String, Entity>();
